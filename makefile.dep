@@ -1,0 +1,9 @@
+allSensorValueTest.o : allSensorValueTest.cpp allSensorValueTest.h \
+	readSensorValue.cpp checkSensorValue.cpp readSensorValue.h checkSensorValue.h typedef.h
+
+readSensorValue.o : readSensorValue.cpp readSensorValue.h typedef.h
+checkSensorValue.o : checkSensorValue.cpp checkSensorValue.h typedef.h
+
+readSensorValueTest.o : readSensorValueTest.cpp readSensorValueTest.h
+
+checkSensorValueTest.o : checkSensorValueTest.cpp checkSensorValueTest.h
